@@ -1,0 +1,59 @@
+html,
+body {
+        min-width: 100vw;
+        min-height: 100vh;
+        overflow: hidden;
+        background:
+            radial-gradient(circle at 50% 100%, #224, #000 40%);
+        margin: 0;
+}
+
+body:after {  
+    content: url('https://t4.ftcdn.net/jpg/02/82/85/41/360_F_282854103_37oUj0bXJxBW6MOb5GnxuBmv4Vq83PKw.jpg');
+    mix-blend-mode: multiply;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 38.25%);
+    text-align: center;  
+}
+
+embed{
+   opacity: 0.1;
+}
+
+.contagem {
+    width:300px;
+    height:70px;
+    background-color: #42414100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    }
+    
+.numero {
+    min-width: 20px;
+    max-width: 55px;
+    background-color: #efefef00;
+    color: #fcfcfc;
+    font-size: 32px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    }
+    
+.legenda {
+    height: 25px;
+    line-height: 15px;
+    font-size:20px;
+    color: #fcfcfc;
+    background-color: #ffffff00;
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    }
